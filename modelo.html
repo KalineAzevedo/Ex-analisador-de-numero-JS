@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Analisador de Números </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1> Analisador de Números </h1>
+    </header>
+    <section>
+        <div>
+            <!--Aqui está sendo criado a estetica do site, a parte das caixas de texto
+            os botoes, os ids que va ser ultilizados na parte JS-->
+            Número (entre 1 e 100):
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br><br> <select name="flista" id="flista" size="6"></select>
+            <br><input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="Modelo.JS"></script>
+
+</body>
+
+</html>
